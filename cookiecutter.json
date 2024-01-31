@@ -1,0 +1,9 @@
+{
+    "full_name": "Guillaume Gay",
+    "email": "guillaum@damcb.com",
+    "webapp_name": "simple_webapp",
+    "webapp_title": "Simple Webapp",
+    "description": "OMERO example minimal web app",
+    "repo_name": "omero-simple-webapp",
+    "version": "0.1.0"
+}
