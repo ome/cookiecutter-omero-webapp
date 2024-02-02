@@ -12,7 +12,7 @@ Install cookiecutter and use it with this repository's URL:
 
 ```sh
 pip install cookiecutter
-cookiecutter https://gitlab.in2p3.fr/fbi-data/small-and-various-pieces-of-coding/omero-webapp-cookiecutter
+cookiecutter https://github.com/ome/cookiecutter-omero-webapp.git
 ```
 
 Then answer the questions in the prompt :smile:
