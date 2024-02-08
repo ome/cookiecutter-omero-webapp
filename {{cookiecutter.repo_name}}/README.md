@@ -1,7 +1,7 @@
 OMERO.{{cookiecutter.webapp_name}}
 =======================
 
-This repository contains an
+This repository contains a
 [cookiecutter](https://cookiecutter.readthedocs.io/) generated example
 of a minimal omero webapp, derived from openmicroscopy [webapp examples](https://github.com/ome/omero-web-apps-examples).
 
