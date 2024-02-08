@@ -5,5 +5,5 @@ setup(
     version="{{cookiecutter.version}}",
     description="{{cookiecutter.description}}",
     packages=find_packages(),
-    keywords=["omero", "example"],
+    keywords=["omero"],
 )
