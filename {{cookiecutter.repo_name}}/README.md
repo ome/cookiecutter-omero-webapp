@@ -5,7 +5,7 @@ This repository contains a
 [cookiecutter](https://cookiecutter.readthedocs.io/) generated example
 of a minimal OMERO webapp, derived from openmicroscopy [webapp examples](https://github.com/ome/omero-web-apps-examples).
 
-This template repository contains a minimal example of OMERO.web apps minimal example (no JavaScript dependencies or build steps).
+This repository contains a minimal OMERO.web app (no JavaScript dependencies or build steps).
 
 
 We will run the simplest example app below. This is called
