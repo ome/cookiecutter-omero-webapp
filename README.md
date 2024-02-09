@@ -3,8 +3,7 @@
 [Cookiecutter](https://cookiecutter.readthedocs.io) allows creation of a project from a predefined template,
 taking care of all the boilerplate code and filling in the relevant information from user's input.
 
-This repository offers a template for an OMERO.web app by creating a project skeleton.
-It is based on the Django example from https://github.com/ome/omero-web-apps-examples
+This repository offers a template to start an OMERO.web app using a project skeleton.
 
 # Usage
 Install cookiecutter and use it with this repository's URL:
@@ -19,7 +18,7 @@ Here are some helpful tips for some of them:
 
   - **webapp_name**: This is the python package name for your app (no spaces or dashes), e.g. `omero_foo`.
   - **webapp_title** A label for the page ```<title>``` and for the link from webclient.
-  - **description**: A short description of your app used in `setup.py`.
+  - **description**: A description of your app, added to the README and used in `setup.py`.
   - **repo_name** The repository name, e.g. on `GitHub`. e.g. `omero-foo`.
 
 
