@@ -3,7 +3,7 @@ OMERO.{{cookiecutter.webapp_name}}
 
 This repository contains a
 [cookiecutter](https://cookiecutter.readthedocs.io/) generated example
-of a minimal OMERO webapp, derived from openmicroscopy [webapp examples](https://github.com/ome/omero-web-apps-examples).
+of a minimal OMERO.web app, derived from [cookiecutter-omero-webapp](https://github.com/ome/cookiecutter-omero-webapp).
 
 This repository contains a minimal OMERO.web app (no JavaScript dependencies or build steps).
 
@@ -12,7 +12,7 @@ We will run the simplest example app below. This is called
 `{{cookiecutter.repo_name}}`.
 
 
-Requirements
+Installation
 ============
 
 You can install and run the `omero-web` server in a Python virtual
@@ -25,11 +25,7 @@ Run your app with locally-installed OMERO.web
 If you have installed OMERO.web locally in a virtual environment as
 [recommended
 here](https://docs.openmicroscopy.org/latest/omero/developers/Web/Deployment.html),
-you can `pip install` the example apps. N.B. all examples apart from the
-`{{cookiecutter.webapp_name}}` also require a JavaScript install and build steps. See
-the README for each example for more details.
-
-To install `{{cookiecutter.repo_name}}`:
+you can `pip install` this app as follows:
 
     # within your python venv:
     $ cd {{cookiecutter.repo_name}}
@@ -88,36 +84,9 @@ starting and the static files from your app are being included.
 
 Now go to <http://localhost:4080/{{cookiecutter.webapp_name}}/> in your browser.
 
-Build
-=====
-
-For building look at the READMEs of the respective setup/folder. To use
-one of them as a basis for your own web app just copy its contents into
-your project root and add/modify/delete accordingly.
-
-In particular the following folders/files need adjustments/renames:
-
--   the django plugin directories (XXXX\_example)
--   the django plugin files \_\_init\_\_.py, app.py, version.py and
-    views.py
--   add/remove/modify the used/unused css, java script and images
--   add any additional js dependencies to package.json
-
 Further Info
 ============
 
-For more documentation on how to create a Django web app and development
-have a look at:
+For more documentation on deployment see:
 
-1.  [CreateApp](https://docs.openmicroscopy.org/latest/omero/developers/Web/CreateApp.html)
-2.  [Deployment](https://docs.openmicroscopy.org/latest/omero/developers/Web/Deployment.html)
-
-For further help/documentation on the frameworks used please consult
-their project sites:
-
--   <http://aurelia.io/>
--   <http://backbonejs.org/>, <http://underscorejs.org/>
--   <https://reactjs.org/>
--   <https://gruntjs.com/>
--   <https://webpack.js.org/>
--   <https://babeljs.io/>
+1.  [Deployment](https://docs.openmicroscopy.org/latest/omero/developers/Web/Deployment.html)
