@@ -17,12 +17,12 @@ You will be asked to fill in various values.
 Here are some helpful tips for some of them:
 
   - **webapp_name**: This is the python package name for your app (no spaces or dashes), e.g. `omero_foo`.
-  - **webapp_title** A label for the page ```<title>``` and for the link from webclient.
+  - **webapp_title** A title for the app home page and for the link from webclient.
   - **description**: A description of your app, added to the README and used in `setup.py`.
   - **repo_name** The repository name, e.g. on `GitHub`. e.g. `omero-foo`.
 
-
-Then you can install the app for development in your local `omero-web` environment:
+Then you can install the app for development in your local `omero-web` environment.
+Use the values you just entered in place of `repo_name` and `webapp_name` as follows:
 
 ```sh
 $ cd repo_name
