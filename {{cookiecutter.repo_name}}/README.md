@@ -12,7 +12,7 @@ Install `{{cookiecutter.webapp_name}}` in development mode as follows:
     $ cd {{cookiecutter.repo_name}}
     $ pip install -e .
 
-Add the app to the `omero.web.apps`{.interpreted-text role="property"} setting:
+Add the app to the `omero.web.apps` setting:
 
 N.B. Here we use single quotes around double quotes:
 
