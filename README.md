@@ -34,3 +34,9 @@ $ omero config append omero.web.apps '"webapp_name"'
 Then you can restart your `omero-web` server and see your app at `<your-server>/webapp_name/`.
 
 For more details, please see the README of your newly created app.
+
+# License and Copyright
+
+All projects that depend on the AGPL-licensed `omero-web` must also be licensed as AGPL.
+A LICENSE file is included accordingly. Please add your own copyright statements to
+files according to your needs.
