@@ -37,6 +37,6 @@ For more details, please see the README of your newly created app.
 
 # License and Copyright
 
-All projects that depend on the GPL-licensed `omero-web` must also be licensed as GPL.
+All projects that depend on the AGPL-licensed `omero-web` must also be licensed as AGPL.
 A LICENSE file is included accordingly. Please add your own copyright statements to
 files according to your needs.
