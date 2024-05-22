@@ -1,0 +1,48 @@
+name: Build
+
+on:
+  push:
+  schedule:
+    - cron: '0 0 * * 1'
+
+jobs:
+  build-repo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: test
+          python-version: 3.9
+          auto-activate-base: false
+      - name: Install Dependencies
+        shell: bash -l {0}
+        run: |
+          conda install -c conda-forge conda-forge::zeroc-ice==3.6.5 omero-py flake8 black cookiecutter
+      - name: Install OMERO web
+        shell: bash -l {0}
+        run: |
+          conda activate test
+          pip install omero-web
+      - name: Generate Repository
+        shell: bash -l {0}
+        run: |
+          conda activate test
+          cookiecutter . --no-input
+          rm -Rf omero-simple-webapp/.github/workflows/
+      - name: Install Generated Repositority Dependencies
+        shell: bash -l {0}
+        run: |
+          conda activate test
+          cd omero-simple-webapp
+          pip install -e .[all]
+      - name: Check code
+        shell: bash -l {0}
+        run: |
+          conda activate test
+          cd omero-simple-webapp
+          flake8 .
+          black --check .
