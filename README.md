@@ -1,5 +1,8 @@
 # Cookiecutter to create OMERO.web apps
 
+[![Actions Status](https://github.com/ome/cookiecutter-omero-webapp/workflows/Build/badge.svg)](https://github.com/ome/cookiecutter-omero-webapp/actions)
+
+
 [Cookiecutter](https://cookiecutter.readthedocs.io) allows creation of a project from a predefined template,
 taking care of all the boilerplate code and filling in the relevant information from user's input.
 
