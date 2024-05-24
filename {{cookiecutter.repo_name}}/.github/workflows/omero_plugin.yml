@@ -29,6 +29,6 @@ jobs:
         with:
           repository: ome/omero-test-infra
           path: .omero
-          ref: main
+          ref: master
       - name: Build and run OMERO tests
         run: .omero/docker $STAGE
