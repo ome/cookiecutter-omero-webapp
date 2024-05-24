@@ -1,5 +1,9 @@
+
+[![Actions Status]({ cookiecutter.github_repository_url }}/workflows/OMERO/badge.svg)]({ cookiecutter.github_repository_url }}/actions)
+
+
 OMERO.{{cookiecutter.webapp_name}}
-=======================
+==================================
 
 {{cookiecutter.description}}.
 
@@ -33,3 +37,15 @@ Further Info
 
 1.  This app was derived from [cookiecutter-omero-webapp](https://github.com/ome/cookiecutter-omero-webapp).
 2.  For further info on depolyment, see [Deployment](https://docs.openmicroscopy.org/latest/omero/developers/Web/Deployment.html)
+
+
+License
+=======
+
+This project, similar to many Open Microscopy Environment (OME) projects, is
+licensed under the terms of the AGPL.
+
+
+Copyright
+=========
+
