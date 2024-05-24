@@ -5,5 +5,7 @@
     "webapp_title": "Simple Webapp",
     "description": "OMERO example minimal web app",
     "repo_name": "omero-simple-webapp",
-    "version": "0.1.0"
+    "github_username_or_organization": "ome",
+    "github_repository_url": "https://github.com/{{cookiecutter.github_username_or_organization}}/{{cookiecutter.repo_name}}",
+    "version": "0.1.0.dev0"
 }
