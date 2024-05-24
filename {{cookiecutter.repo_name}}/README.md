@@ -10,15 +10,35 @@ OMERO.{{cookiecutter.webapp_name}}
 Installation
 ============
 
-Install `{{cookiecutter.webapp_name}}` in development mode as follows:
+This section assumes that an OMERO.web is already installed.
+
+Installing from Pypi
+~~~~~~~~~~~~~~~~~~~~
+
+Install the app using `pip <https://pip.pypa.io/en/stable/>`_:
+
+Ensure that you are running ``pip`` from the Python environment
+where ``omero-web`` is installed. Depending on your install, you may need to
+call ``pip`` with, for example: ``/path/to_web_venv/venv/bin/pip install ...``
+
+::
+
+    $ pip install -U {{cookiecutter.repo_name}}
+
+
+Development mode
+~~~~~~~~~~~~~~~~
+
+Install `{{cookiecutter.repo_name}}` in development mode as follows:
 
     # within your python venv:
     $ cd {{cookiecutter.repo_name}}
     $ pip install -e .
 
-Add the app to the `omero.web.apps` setting:
+After installation either from [Pypi](https://pypi.org/) or in development mode, you need to configure the application
+To add the application to the `omero.web.apps` settings, run the following command:
 
-N.B. Here we use single quotes around double quotes:
+Note the usage of single quotes around double quotes:
 
     $ omero config append omero.web.apps '"{{cookiecutter.webapp_name}}"'
 
@@ -35,8 +55,8 @@ Now restart your `omero-web` server and go to
 Further Info
 ============
 
-1.  This app was derived from [cookiecutter-omero-webapp](https://github.com/ome/cookiecutter-omero-webapp).
-2.  For further info on depolyment, see [Deployment](https://docs.openmicroscopy.org/latest/omero/developers/Web/Deployment.html)
+1. This app was derived from [cookiecutter-omero-webapp](https://github.com/ome/cookiecutter-omero-webapp).
+2. For further info on depolyment, see [Deployment](https://docs.openmicroscopy.org/latest/omero/developers/Web/Deployment.html)
 
 
 License
