@@ -35,7 +35,7 @@ Install `{{cookiecutter.repo_name}}` in development mode as follows:
     $ cd {{cookiecutter.repo_name}}
     $ pip install -e .
 
-After installation either from [Pypi](https://pypi.org/) or in development mode, you need to configure the application
+After installation either from [Pypi](https://pypi.org/) or in development mode, you need to configure the application.
 To add the application to the `omero.web.apps` settings, run the following command:
 
 Note the usage of single quotes around double quotes:
