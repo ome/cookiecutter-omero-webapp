@@ -1,5 +1,5 @@
 
-[![Actions Status]({ cookiecutter.github_repository_url }}/workflows/OMERO/badge.svg)]({ cookiecutter.github_repository_url }}/actions)
+[![Actions Status]({{ cookiecutter.github_repository_url }}/workflows/OMERO/badge.svg)]({{ cookiecutter.github_repository_url }}/actions)
 
 
 OMERO.{{cookiecutter.webapp_name}}
