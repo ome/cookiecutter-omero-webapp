@@ -13,9 +13,9 @@ Installation
 This section assumes that an OMERO.web is already installed.
 
 Installing from Pypi
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
-Install the app using `pip <https://pip.pypa.io/en/stable/>`_:
+Install the app using [pip](<https://pip.pypa.io/en/stable/>) .
 
 Ensure that you are running ``pip`` from the Python environment
 where ``omero-web`` is installed. Depending on your install, you may need to
@@ -27,7 +27,7 @@ call ``pip`` with, for example: ``/path/to_web_venv/venv/bin/pip install ...``
 
 
 Development mode
-~~~~~~~~~~~~~~~~
+----------------
 
 Install `{{cookiecutter.repo_name}}` in development mode as follows:
 
