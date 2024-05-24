@@ -49,5 +49,5 @@ licensed under the terms of the AGPL.
 Copyright
 =========
 
-TBD
+TBA
 
