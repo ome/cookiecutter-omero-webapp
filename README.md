@@ -1,4 +1,5 @@
-# Cookiecutter to create OMERO.web apps
+Cookiecutter to create OMERO.web apps
+=====================================
 
 [![Actions Status](https://github.com/ome/cookiecutter-omero-webapp/workflows/Build/badge.svg)](https://github.com/ome/cookiecutter-omero-webapp/actions)
 
@@ -8,7 +9,8 @@ taking care of all the boilerplate code and filling in the relevant information 
 
 This repository offers a template to start an OMERO.web app using a project skeleton.
 
-# Usage
+Usage
+=====
 Install cookiecutter and use it with this repository's URL:
 
 ```sh
@@ -38,8 +40,17 @@ Then you can restart your `omero-web` server and see your app at `<your-server>/
 
 For more details, please see the README of your newly created app.
 
-# License and Copyright
+License and Copyright
+=====================
 
 All projects that depend on the AGPL-licensed `omero-web` must also be licensed as AGPL.
-A LICENSE file is included accordingly. Please add your own copyright statements to
-files according to your needs.
+A LICENSE file is included accordingly. Please add your own copyright statements in the files headers
+according to your needs and the README.md file
+
+GitHub action
+=============
+
+The created repository contains two github actions:
+* omero_plugin.yml: This action tests the installation of the application as an omero-web app and runs some code checking/formatting like ``flake8`` or ``black``.
+* publish_pypi.yml: This action will build and push the application to [PyPi](https://pypi.org/). You must you access password as a secret ``PYPI_PASSWORD`` in order to connect to PyPi.
+Modify the actions according to your requirements.
