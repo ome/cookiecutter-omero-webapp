@@ -25,6 +25,7 @@ Here are some helpful tips for some of them:
   - **repo_name** The repository name, e.g. on `GitHub`. e.g. `omero-foo`. Use the same name as the app name replacing underscores by dashes
   - **webapp_title** A title for the app home page and for the link from webclient.
   - **description**: A description of your app, added to the README and used in `setup.py`.
+  - **copyright_holder**: The holder of the copyright. This value will be added to the files' header.
 
 
 Then you can install the app for development in your local `omero-web` environment.
@@ -45,8 +46,7 @@ License and Copyright
 =====================
 
 All projects that depend on the AGPL-licensed `omero-web` must also be licensed as AGPL.
-A LICENSE file is included accordingly. Please add your own copyright statements in the files headers
-according to your needs and the README.md file
+A LICENSE file is included accordingly.
 
 GitHub action
 =============
