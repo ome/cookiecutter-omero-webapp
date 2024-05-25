@@ -63,11 +63,11 @@ License
 =======
 
 This project, similar to many Open Microscopy Environment (OME) projects, is
-licensed under the terms of the AGPL.
+licensed under the terms of the AGPL v3.
 
 
 Copyright
 =========
 
-TBA
+{% now 'utc', '%Y' %} {{ cookiecutter.copyright_holder }}
 
