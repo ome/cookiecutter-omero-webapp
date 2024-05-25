@@ -1,11 +1,13 @@
 {
     "full_name": "OME Team",
     "email": "ome-team@openmicroscopy.org",
-    "webapp_name": "simple_webapp",
+    "webapp_name": "omero_simple_webapp",
     "webapp_title": "Simple Webapp",
     "description": "OMERO example minimal web app",
     "repo_name": "omero-simple-webapp",
     "github_username_or_organization": "ome",
     "github_repository_url": "https://github.com/{{cookiecutter.github_username_or_organization}}/{{cookiecutter.repo_name}}",
-    "version": "0.1.0.dev0"
+    "version": "0.1.0.dev0",
+    "development_status": "2 - Pre-Alpha",
+    "copyright_holder": "University of Dundee"
 }
