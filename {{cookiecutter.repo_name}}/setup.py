@@ -27,7 +27,7 @@ setup(
     description="{{cookiecutter.description}}",
     packages=find_packages(),
     keywords=["omero"],
-        classifiers=[
+    classifiers=[
         "Development Status :: {{cookiecutter.development_status}}",
         "Environment :: Plugins",
         "Intended Audience :: Developers",
