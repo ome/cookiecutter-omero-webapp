@@ -46,6 +46,6 @@ setup(
     zip_safe=False,
     download_url="%s/v%s.tar.gz" % (url, version),
     include_package_data=True,
-    install_requires=['omero-web>=5.26.0'],
-    tests_require=['pytest'],
+    install_requires=["omero-web>=5.26.0"],
+    tests_require=["pytest"],
 )
