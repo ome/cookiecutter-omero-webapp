@@ -2,6 +2,7 @@ name: Build
 
 on:
   push:
+  pull_request:
   schedule:
     - cron: '0 0 * * 1'
 
@@ -10,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           persist-credentials: false
-      - uses: conda-incubator/setup-miniconda@v2
+      - uses: conda-incubator/setup-miniconda@v3
         with:
           activate-environment: test
           python-version: 3.9

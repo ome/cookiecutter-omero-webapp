@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+#
+# Copyright (c) {% now 'utc', '%Y' %} {{ cookiecutter.copyright_holder }}.
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
