@@ -50,8 +50,8 @@ class TestLoadIndexPage(IWebTest):
         conn = get_connection(user1)
         user_name = conn.getUser().getName()
         django_client = self.new_django_client(user_name, user_name)
-        list_files_url = reverse("{{cookiecutter.webapp_name}}_index")
+        index_url = reverse("{{cookiecutter.webapp_name}}_index")
         # asserts we get a 200 response code etc
-        rsp = get(django_client, list_files_url)
+        rsp = get(django_client, index_url)
         html_str = rsp.content.decode()
         assert "Welcome" in html_str
