@@ -4,7 +4,7 @@ requires = [
 ]
 
 [project]
-name = "{{cookiecutter.repo_name}}",
+name = "{{cookiecutter.repo_name}}"
 version = "{{ cookiecutter.version }}"
 description = "{{cookiecutter.description}}"
 authors = [ 
