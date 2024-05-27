@@ -30,4 +30,9 @@ dependencies = [
 
 [project.urls]
 Repository = "{{ cookiecutter.github_repository_url }}"
-Download = "{{ cookiecutter.github_repository_url }}/v{ cookiecutter.version }}.tar.gz"
+Download = "{{ cookiecutter.github_repository_url }}/v{{ cookiecutter.version }}.tar.gz"
+
+[project.optional-dependencies]
+test = [
+    "pytest"
+]
