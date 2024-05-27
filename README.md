@@ -52,6 +52,6 @@ GitHub action
 =============
 
 The created repository contains two github actions:
-* omero_plugin.yml: This action tests the installation of the application as an omero-web app and runs some code checking/formatting like ``flake8`` or ``black``.
-* publish_pypi.yml: This action will build and push the application to [PyPi](https://pypi.org/). You must you access password as a secret ``PYPI_PASSWORD`` in order to connect to PyPi.
+* ``omero_plugin.yml``: This action tests the installation of the application as an omero-web app and runs some code checking/formatting like ``flake8`` or ``black``.
+* ``publish_pypi.yml``: This action will build and push the application to [PyPi](https://pypi.org/). You must you access password as a secret ``PYPI_PASSWORD`` in order to connect to PyPi.
 Modify the actions according to your requirements.
