@@ -1,0 +1,35 @@
+[build-system]
+requires = [
+    "setuptools",
+]
+
+[project]
+name = "{{cookiecutter.repo_name}}"
+version = "{{ cookiecutter.version }}"
+description = "{{cookiecutter.description}}"
+authors = [ 
+   {name = "{{ cookiecutter.full_name }}", email = "{{ cookiecutter.email }}"}
+]
+license = {file = "LICENSE"}
+keywords = ["omero", "omero-web"]
+classifiers = [
+    "Development Status :: {{cookiecutter.development_status}}",
+    "Environment :: Plugins",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU Affero General Public License v3 ",  # noqa
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">= 3.9"
+
+[project.urls]
+Repository = "{{ cookiecutter.github_repository_url }}"
+Download = "{{ cookiecutter.github_repository_url }}/v{{ cookiecutter.version }}.tar.gz"
+
+[project.optional-dependencies]
+test = [
+    "pytest"
+]
