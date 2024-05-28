@@ -24,9 +24,6 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 requires-python = ">= 3.9"
-dependencies = [
-    "omero-web>=5.26.0",
-]
 
 [project.urls]
 Repository = "{{ cookiecutter.github_repository_url }}"
