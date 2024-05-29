@@ -20,7 +20,6 @@ Our commercial partner [Glencoe Software](<https://www.glencoesoftware.com/blog/
 
 When the wheel is installed, activate the virtual environment and install ``omero-web`` from [PyPI](<https://pypi.org/>).
 
-::
 
     $ pip install -U omero-web
 
@@ -34,7 +33,6 @@ Ensure that you are running ``pip`` from the Python environment
 where ``omero-web`` is installed. Depending on your install, you may need to
 call ``pip`` with, for example: ``/path/to_web_venv/venv/bin/pip install ...``
 
-::
 
     $ pip install -U {{cookiecutter.repo_name}}
 
