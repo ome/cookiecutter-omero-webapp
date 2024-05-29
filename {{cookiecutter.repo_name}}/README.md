@@ -10,7 +10,20 @@ OMERO.{{cookiecutter.webapp_name}}
 Installation
 ============
 
-This section assumes that an OMERO.web is already installed.
+Before installing the web app, you will need to install OMERO.web.
+We recommend installing ``omero-web`` in a Python virtual environment.
+You can create one using for example ``venv``, ``conda`` or ``mamba``.
+
+Before installing ``omero-web``, we recommend to install the [ZeroC IcePy 3.6](https://zeroc.com/downloads/ice/3.6) Python bindings.
+Our commercial partner [Glencoe Software](<https://www.glencoesoftware.com/blog/2023/12/08/ice-binaries-for-omero.html>) has produced several Python wheels to install the Ice-Python bindings depending on the desired Python version and the operating system. Please visit [OMERO Python language bindings](https://omero.readthedocs.io/en/stable/developers/Python.html) for a list of supported platforms and Python versions.
+
+
+When the wheel is installed, activate the virtual environment and install ``omero-web`` from [PyPI](<https://pypi.org/>).
+
+::
+
+    $ pip install -U omero-web
+
 
 Installing from Pypi
 --------------------
@@ -31,7 +44,7 @@ Development mode
 
 Install `{{cookiecutter.repo_name}}` in development mode as follows:
 
-    # within your python venv:
+    # within your Python virtual environment:
     $ cd {{cookiecutter.repo_name}}
     $ pip install -e .
 
