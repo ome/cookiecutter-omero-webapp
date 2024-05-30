@@ -16,11 +16,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-from django.urls import re_path
+from django.urls import path
 
 from . import views
 
 urlpatterns = [
     # index 'home page' of the app
-    re_path(r"^$", views.index, name="{{cookiecutter.webapp_name}}_index"),
+    path("", views.index, name="{{cookiecutter.webapp_name}}_index"),
 ]
