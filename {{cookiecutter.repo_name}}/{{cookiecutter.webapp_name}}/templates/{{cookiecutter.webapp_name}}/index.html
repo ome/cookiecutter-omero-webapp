@@ -27,6 +27,7 @@
             window.PARAMS.EXP_ID = {{ experimenterId }};
 
             // Render a URL to the /api/v0/ URL for loading JSON data
+            // See https://omero.readthedocs.io/en/stable/developers/json-api.html
             window.PARAMS.API_BASE_URL = "{% url 'api_base' 0 %}";
         </script>
     </head>
