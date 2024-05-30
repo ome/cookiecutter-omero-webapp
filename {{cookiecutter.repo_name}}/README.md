@@ -10,7 +10,7 @@ OMERO.{{cookiecutter.webapp_name}}
 Installation
 ============
 
-This section assumes that an OMERO.web is already installed.
+This section assumes that an OMERO.web is already installed. See [OMERO.web installation instructions]<https://github.com/ome/omero-web/blob/master/README.rst> for more details.
 
 Installing from Pypi
 --------------------
