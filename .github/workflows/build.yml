@@ -17,7 +17,7 @@ jobs:
       - uses: conda-incubator/setup-miniconda@v3
         with:
           activate-environment: test
-          python-version: 3.9
+          python-version: "3.11"
           auto-activate-base: false
       - name: Install Dependencies
         shell: bash -l {0}
